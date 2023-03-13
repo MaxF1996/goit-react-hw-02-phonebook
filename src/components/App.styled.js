@@ -1,4 +1,5 @@
 import styled from 'styled-components';
 
+export const AppBody = styled.div``;
 export const AppHeader = styled.h1``;
-export const AppSubeader = styled.h2``;
+export const AppSubheader = styled.h2``;

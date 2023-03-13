@@ -1,9 +1,15 @@
 import styled from 'styled-components';
-import { nanoid } from 'nanoid';
 
-export const ContactFormTitle = styled.h3``;
 export const ContactFormBody = styled.form``;
+
+export const ContactFormLabel = styled.label`
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+`;
+
 export const ContactFormInput = styled.input`
+  display: block;
   height: 30px;
   font-size: 18px;
   margin-bottom: 15px;
